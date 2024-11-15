@@ -1,0 +1,108 @@
+/* GENERAL */
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.field-group {
+    width: 100%;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: left;
+    margin-top: 10px;
+    font-size: 1.25rem;
+}
+
+.field-group a img {
+    max-width: 20%;
+}
+
+.field-group ul {
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.field {
+    margin: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.field a {
+    text-decoration: none;
+}
+
+.field-group hr {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.sidebar, .data {
+    height: 100vh;  
+}
+
+/* SIDEBAR */
+.sidebar {
+    padding: 20px;
+    width: 20%;
+    background-color: #576c7a;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sidebar * {
+    color: white;
+}
+
+.sidebar > img {
+    -webkit-user-drag: none;
+    max-height: 100px;
+}
+
+.sidebar .github-logo {
+    max-height: 25px;
+}
+
+/* DATA */ 
+.data {
+    width: 80%;
+    padding: 20px;
+}
+
+.data dt, .data .timespan {
+    color: #576c7a;
+}
+
+.data dt {
+    font-weight: bold;
+}
+
+.data dt .job-course {
+    font-style: italic;
+}
+
+.data dd {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+
+}
