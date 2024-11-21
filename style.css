@@ -39,6 +39,25 @@ h3 {
     align-items: left;
 }
 
+#print   {
+    border: 1px solid gray;
+    padding: 5px;
+    border-radius: 10px;
+    background-color: white;
+    color: #576c7a;
+    font-weight: bold;
+    margin-top: 5px;
+    transition: .25s;
+}
+
+#print:hover {
+    background-color: #ddd;
+}
+
+#print:active {
+    background-color: #bbb;
+}
+
 .field {
     margin: 5px;
     width: 100%;
